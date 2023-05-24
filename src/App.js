@@ -1,7 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Web3 from 'web3'
 
 function App() {
+  var teste = new Web3("HTTP://127.0.0.1:8545");
+  console.log(teste);
+  alert(teste)
   return (
     <div className="App">
       <header className="App-header">
