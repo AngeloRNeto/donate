@@ -1,27 +1,16 @@
-import logo from './logo.svg';
+import Conta from './components/conta/Conta';
+import Header from './components/itens/Header';
+import Banner from './components/itens/Banner';
+import Cards from './components/itens/Cards';
 import './App.css';
-import Web3 from 'web3'
 
 function App() {
-  var teste = new Web3("HTTP://127.0.0.1:8545");
-  console.log(teste);
-  alert(teste)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header></Header>
+        <Banner></Banner>
+        <Cards></Cards>
+        {/* <Conta></Conta> */}
     </div>
   );
 }
