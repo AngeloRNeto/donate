@@ -1,8 +1,8 @@
 import './Cards.css';
-import iconCulture from '../../img/icon-culture.png';
-import iconReligion from '../../img/icon-religion.png';
-import iconHealth from '../../img/icon-health.png';
-import iconNature from '../../img/icon-nature.png';
+import iconCulture from '../../../img/icon-culture.png';
+import iconReligion from '../../../img/icon-religion.png';
+import iconHealth from '../../../img/icon-health.png';
+import iconNature from '../../../img/icon-nature.png';
 
 function Cards() {
     return (
@@ -10,7 +10,7 @@ function Cards() {
             <div className="column">
                 <div className="card" id="icon-nature" onClick={()=> showOscByType(1)}>
                     <img src={iconNature} width="80" height="80" alt="Ícone Natureza" />
-                    <h3>Meio ambiente e proteção animal</h3>
+                    <h3>Meio ambiente</h3>
                 </div>
             </div>
 

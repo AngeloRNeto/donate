@@ -1,7 +1,7 @@
 import Conta from './components/conta/Conta';
-import Header from './components/itens/Header';
-import Banner from './components/itens/Banner';
-import Cards from './components/itens/Cards';
+import Header from './components/itens/header/Header';
+import Banner from './components/itens/banner/Banner';
+import Cards from './components/itens/cards/Cards';
 import './App.css';
 
 function App() {
