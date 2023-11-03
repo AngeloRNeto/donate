@@ -2,13 +2,18 @@
   "name": "donate-app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@ethereumjs/tx": "^5.0.0",
+    "axios": "^1.6.0",
+    "mongodb": "^6.2.0",
+    "mongoose": "^6.12.1",
     "react": "^18.2.0",
+    "react-currency-input-field": "^3.6.11",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "react-modal": "^3.16.1",
+    "react-scripts": "4.0.3",
+    "serve": "^14.2.1",
     "web-vitals": "^2.1.4",
     "web3": "^1.8.2"
   },
@@ -24,16 +29,9 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }

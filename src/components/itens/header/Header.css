@@ -38,6 +38,12 @@
     background-color: #3F50E7;
 }
 
+#menu-h ul li:last-child div {
+    float: right;
+    background-color: #3F50E7;
+    color: white;
+}
+
 #menu-h ul li:first-child {
     float: left;
 }

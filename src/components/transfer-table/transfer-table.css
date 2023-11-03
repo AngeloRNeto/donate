@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid;
+    color: white;
+    border-color: #071341;
+    text-align: center;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid  #071341;
+    background-color:#071341 !important;
+    text-align: center;
+  }
+
+  th {
+    background-color: #071341;
+  }
+
+  /* Estilos adicionais */
+  .center {
+    text-align: center;
+  }
+
+  .bold {
+    font-weight: bold;
+  }

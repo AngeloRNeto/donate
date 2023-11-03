@@ -1,18 +1,20 @@
-import Conta from './components/conta/Conta';
-import Header from './components/itens/header/Header';
-import Banner from './components/itens/banner/Banner';
-import Cards from './components/itens/cards/Cards';
+import { Component } from 'react';
+import Banner from './components/itens/banner/Banner.js';
+import Cards from './components/itens/cards/Cards.js';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-        <Header></Header>
+class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div className="App" >
         <Banner></Banner>
         <Cards></Cards>
-        {/* <Conta></Conta> */}
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
